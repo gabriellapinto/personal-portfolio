@@ -1,15 +1,22 @@
+/* universal code */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* header code */
+/* header section */
 .header {
     padding: 20px;
     background-color: #907FA4;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
     position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 .header h1 {
@@ -41,9 +48,29 @@ a {
     font-weight: bold;
 }
 
+/* hero section */
+.hero {
+    height: 200px;
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 25px;
+    background-image: url("../images/seamless-pattern-purple-flower-with-watercolor-designed-for-fabric-and-wallpaper-vintage-style-vector.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-position: center;
+    display: flex;
+    position: relative;
+}
 
-/* insert hero code here */
-
+.hero div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #95C0C0;
+    color: #EDEDD0;
+    height: 40px;
+    width: 300px;
+}
 
 
 .section-title {
@@ -53,6 +80,7 @@ a {
     border-bottom: solid 4px #907FA4;
 }
 
+/* about me section */
 .about-me-info {
     display: flex;
     padding: 20px;
@@ -62,12 +90,13 @@ a {
 
 .about-me-info p {
     float: right;
+    width: 30%;
+    text-justify: right;
 }
 
 .about-me-info img {
     border: solid 4px #95C0C0;
 }
-
 
 /* work code here */
 
