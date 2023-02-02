@@ -102,13 +102,19 @@ a {
 
 /* contact me */
 
+
 /* resume code */
+#resume p {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
 #resume div {
     display: center;
 }
 
 
-
+/* footer section */
 footer {
     padding: 20px;
     background-color: #907FA4;
