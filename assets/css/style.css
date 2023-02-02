@@ -92,7 +92,7 @@ a {
 .about-me-info p {
     float: right;
     width: 30%;
-    text-align: right;
+    text-align: center;
 }
 
 .about-me-info img {
@@ -102,8 +102,6 @@ a {
 /* work code here */
 
 /* contact me */
-
-
 #contact-me nav ul li {
     display: flex;
     display: inline-block;
@@ -139,4 +137,52 @@ footer div{
     text-align: center;
     font-size: 18px;
     color: white;
+}
+
+/* media queries for various screen sizes */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .about-me-info p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #resume div {
+
+    }
 }
