@@ -2,3 +2,61 @@
     margin: 0;
     padding: 0;
 }
+
+/* header code */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #907FA4;
+    color: white;
+    position: sticky;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.header nav {
+    display: inline-block;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* a is the list for the header */
+a {
+    text-decoration: none;
+    color: #EDEDD0;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    
+}
