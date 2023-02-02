@@ -75,19 +75,21 @@ a {
 
 .section-title {
     font-size: 40px;
+    width: 300px;
     color: #95C0C0;
     text-align: center;
     border-bottom: solid 4px #907FA4;
-    padding: 15px;
-    margin: 15px;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 /* about me section */
 .about-me-info {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
     font-size: 18px;
-    justify-content: center;
 }
 
 .about-me-info p {
@@ -103,11 +105,13 @@ a {
 /* work code here */
 
 /* contact me */
-#contact-me nav ul li {
+#contact-me nav ul {
     display: flex;
-    display: inline-block;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 15px;
 }
 
 #contact-me nav ul li a {
