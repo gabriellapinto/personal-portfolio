@@ -78,6 +78,7 @@ a {
     color: #95C0C0;
     text-align: center;
     border-bottom: solid 4px #907FA4;
+    padding: 15px;
 }
 
 /* about me section */
@@ -91,7 +92,7 @@ a {
 .about-me-info p {
     float: right;
     width: 30%;
-    text-justify: right;
+    text-align: right;
 }
 
 .about-me-info img {
@@ -103,6 +104,19 @@ a {
 /* contact me */
 
 
+#contact-me nav ul li {
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contact-me nav ul li a {
+    font-size: 18px;
+    color: black;
+    border-bottom: solid 3px #95C0C0;
+}
+
 /* resume code */
 #resume p {
     font-size: 18px;
@@ -110,7 +124,8 @@ a {
     padding: 20px;
 }
 #resume div {
-    display: center;
+    display: flex;
+
 }
 
 
