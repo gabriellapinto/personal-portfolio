@@ -103,7 +103,36 @@ a {
 }
 
 /* work code here */
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
 
+.main-project {
+    display: flex;
+}
+
+.main-project img {
+    width: 800px;
+    opacity: 50%;
+}
+
+.main-project img:hover {
+    opacity: 100%
+}
+
+
+
+.side-project img {
+    width: 400px;
+    opacity: 50%;
+}
+
+.side-project img:hover {
+    opacity: 100%;
+}
 
 
 
