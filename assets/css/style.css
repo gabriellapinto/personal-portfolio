@@ -94,7 +94,7 @@ a {
 
 .about-me-info p {
     float: right;
-    width: 30%;
+    width: 50%;
     text-align: center;
 }
 
@@ -188,7 +188,6 @@ footer div{
 /* media queries for various screen sizes */
 @media screen and (max-width: 980px) {
     header {
-        padding-bottom: 0;
         width: 100%;
     }
 
@@ -207,7 +206,7 @@ footer div{
         font-size: 20px;
     }
 
-    footer h2, footer div {
+    footer {
         text-align: center;
         width: 100%;
     }
@@ -223,8 +222,16 @@ footer div{
         width: 100%;
     }
 
+    .main-project img {
+        width: 600px; 
+    }
+
     .about-me-info p {
         padding: 10px;
+    }
+
+    footer {
+        width: 100%;
     }
 }
 
@@ -238,7 +245,7 @@ footer div{
     }
 
     .about-me-info p {
-        padding: 10px;
+        text-orientation: upright;
     }
 }
 
@@ -253,6 +260,23 @@ footer div{
 
     .about-me-info p {
         padding: 10px;
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .main-project img {
+        width: 400px;
+    }
+
+    .side-project img {
+        width: 300px;
+    }
+
+    .coming-soon-header {
+        font-size: 18px;
+        right: auto;
     }
 
 }
