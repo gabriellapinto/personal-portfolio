@@ -123,8 +123,6 @@ a {
     opacity: 100%
 }
 
-
-
 .side-project img {
     width: 400px;
     opacity: 50%;
@@ -134,14 +132,14 @@ a {
     opacity: 100%;
 }
 
-
-
-
-
-
-
-
-
+.coming-soon-header {
+    position: absolute;
+    background-color: #907FA4;
+    padding: 5px;
+    color: #EDEDD0;
+    font-size: 20px;
+    border: solid 2px #736583;
+}
 /* contact me */
 #contact-me nav ul {
     display: flex;
@@ -150,6 +148,7 @@ a {
     justify-content: space-around;
     list-style-type: none;
     margin: 15px;
+    padding: 15px;
 }
 
 #contact-me nav ul li a {
@@ -166,7 +165,6 @@ a {
 }
 #resume div {
     display: flex;
-
 }
 
 #resume p a{
@@ -174,7 +172,6 @@ a {
     font-weight: bolder;
     font-size: 20px;
 }
-
 
 /* footer section */
 footer {
@@ -192,8 +189,7 @@ footer div{
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
-        justify-content: center;
-        position: relative;
+        width: 100%;
     }
 
     header h1 {
@@ -215,6 +211,21 @@ footer div{
         text-align: center;
         width: 100%;
     }
+
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .about-me-info p {
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -227,11 +238,21 @@ footer div{
     }
 
     .about-me-info p {
-        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .about-me-info p {
         padding: 10px;
     }
 
-    #resume div {
-
-    }
 }
