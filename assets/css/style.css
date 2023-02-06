@@ -169,6 +169,12 @@ a {
 
 }
 
+#resume p a{
+    color: #95C0C0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
 
 /* footer section */
 footer {
@@ -180,7 +186,7 @@ footer div{
     text-align: center;
     font-size: 18px;
     color: white;
-}
+} 
 
 /* media queries for various screen sizes */
 @media screen and (max-width: 980px) {
