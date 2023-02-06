@@ -28,7 +28,6 @@
     display: inline-block;
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-size: 20px;
 }
 
@@ -41,7 +40,7 @@
     margin-left: 25px;
 }
 
-/* a is the list for the header */
+/* a is the lists for the header */
 a {
     text-decoration: none;
     color: #EDEDD0;
@@ -61,7 +60,7 @@ a {
     display: flex;
     position: relative;
 }
-
+/* hero div contains the welcome heading */
 .hero div {
     position: absolute;
     bottom: 0;
@@ -72,7 +71,7 @@ a {
     width: 300px;
 }
 
-
+/* section title is for all main headings on the page */
 .section-title {
     font-size: 40px;
     width: 300px;
@@ -102,7 +101,7 @@ a {
     border: solid 4px #95C0C0;
 }
 
-/* work code here */
+/* work section */
 .work-container {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +109,7 @@ a {
     padding: 20px;
 }
 
+/* main project and side project are practically the same div but, main project is the slightly larger one. this will get more specfic when updating the portflio */
 .main-project {
     display: flex;
 }
@@ -132,6 +132,7 @@ a {
     opacity: 100%;
 }
 
+/* coming soon header is the titles on all images in the work section */
 .coming-soon-header {
     position: absolute;
     background-color: #907FA4;
@@ -140,7 +141,7 @@ a {
     font-size: 20px;
     border: solid 2px #736583;
 }
-/* contact me */
+/* contact me section */
 #contact-me nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -151,18 +152,20 @@ a {
     padding: 15px;
 }
 
+/* this only affects the "here" word so it stands out to viewers */
 #contact-me nav ul li a {
     font-size: 18px;
     color: black;
     border-bottom: solid 3px #95C0C0;
 }
 
-/* resume code */
+/* resume section  */
 #resume p {
     font-size: 18px;
     text-align: center;
     padding: 20px;
 }
+
 #resume div {
     display: flex;
 }
@@ -186,6 +189,7 @@ footer div{
 } 
 
 /* media queries for various screen sizes */
+/* my live server was glitching showing these media queries so I really hope they work! */
 @media screen and (max-width: 980px) {
     header {
         width: 100%;
