@@ -5,4 +5,6 @@ This portfolio was made to demonstrate my HTML and CSS skills I learned in the f
 
 ## Live Website:
 https://gabriellapinto.github.io/personal-portfolio/
+![portfolio-preview](https://user-images.githubusercontent.com/97854086/216863601-ff45c493-ed8f-4402-8929-200b63afa878.jpg)
+
 
